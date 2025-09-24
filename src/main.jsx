@@ -6,7 +6,7 @@ import "./index.css";
 import AppContextProvider from "./context/AppContext.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Doctors-Appointment">
     <AppContextProvider>
       <App />
     </AppContextProvider>
